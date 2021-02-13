@@ -1,75 +1,43 @@
 body {
-    background-color: #242f44;
-    color: white;
-      font-family: 'Oswald', sans-serif;
+    background-color: rgb(57, 169, 219);
+    font-family: Rubik, Arial;
   }
   
-  header {
+  form {
     text-align: center;
-    margin-top: 5px;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  form hr {
+    width: 15%;
   }
   
   h1 {
-    font-size: 36px;
-    padding: 15px;
-    color: #8c6b48;
-    background-color: white;
-  }
-  
-  h2 {
-    font-size: 24px;
-    padding: 15px;
-    text-transform: uppercase;
-  }
-  
-  h3 {
-    font-size: 20px;
-    padding: 15px;
-    text-transform: uppercase;
-    text-align: left;
-    margin-left: 20px;
-    font-weight: 500;
-    line-height: 2.7;
-    letter-spacing: 0.8px;
-  }
-  
-  th {
-    border: 2px solid #8c6b48;
-  }
-  
-  table {
     text-align: center;
-    margin: 20px auto;
   }
   
-  td {
-    border: 2px solid #8c6b48;
-    width: 300px;
+  #burger {
+    max-height: 30%;
   }
   
-  footer {
-    margin-top: 50px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 5px;
-    background-color: #242f44;
-    z-index: 5;
-  }
-  footer h3 {
-    display: inline-block;
-    font-size: 14px;
-    background-color: #242f44;
+  #overlay {
+    width: 80%;
+    margin: 3% auto;
+    height: 95vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
   }
   
-  .container {
-    max-width: 940px;
-    margin: 0 auto;
-    height: 800px;
+  #logo {
+    height: 100px;
+    display: block;
+    margin: auto;
   }
   
   
-  .left {
-    width: 150px;
+  .toppings label, .cheesy label {
+    margin-right: 25px;
   }
   
